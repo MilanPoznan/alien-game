@@ -16,5 +16,5 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 This is testing project only for practicing React Hooks. 
 
 Controles:
-##move alien => W,A,S,D
-##Use weapons => Q, E 
+## move alien => W,A,S,D
+## Use weapons => Q, E 
