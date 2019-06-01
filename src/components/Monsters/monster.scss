@@ -1,0 +1,49 @@
+.monster-area {
+    position: fixed;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    bottom: 0;
+    left: 0;
+    width: 45vw;
+    height: 50vh;
+    padding: 40px;
+    background: green;
+    border-top-right-radius: 50%;
+}
+.monster {
+    width: 140px;
+        height: 200px;
+        background: url('./img/monster-1.png');
+        background-position: center;
+        background-size: contain;
+        margin-bottom: 100px;
+        margin-left: 150px;
+    &__rockets {
+        display: flex;
+    }
+    &__rocket {
+        position: absolute;
+        top: 90vh;
+        left: 10vw;
+        width: 30px;
+        height: 30px;
+        // border-radius: 50%;
+        list-style: none;
+            &--orange {
+                background: orange;
+                margin-left: 20px;
+
+            }
+            &--black {
+                background: black;
+                margin-left: 40px;
+
+            }
+            &--red {
+                background: red;
+                margin-left: 60px;
+
+            }
+    }
+}

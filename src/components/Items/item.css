@@ -1,0 +1,45 @@
+.shield {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+    opacity: 0.9;
+    animation: createShield 1s forwards;
+    
+}
+.sword {
+    position: absolute;
+    width: 6px;
+    height: 0px;
+    background: orange;
+    transform: rotate(45deg);
+    left: 120%;
+    top: -15%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    animation: getSword .2s forwards;
+}
+@keyframes getSword {
+    100% { height: 100px; }
+}
+@keyframes createShield {
+    0% {
+        width: 0;
+        height: 0;
+        background: azure;
+        /* transform: scale( 0 );  */
+        top:-40%;
+        left: -100%;
+    }
+    5% {
+        top:-40%;
+        left: -100%;
+    }
+    100% {
+        background: red;
+        width: 200px;
+        height: 200%;
+        top: -40%;
+        left: -110%;
+    }
+}

@@ -1,0 +1,38 @@
+.shop {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 200px;
+    right: 140px;
+    float: right;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    background: green;
+    color: #fff;
+    text-align: center;
+    &::after {
+        content: '';
+        position: absolute;
+        bottom: 100%;
+        left: 0;
+        width: 0;
+        height: 0;
+        border: 0 solid transparent;
+        border-right-width: 50px;
+        border-left-width: 50px;
+        border-bottom: 50px solid #3B2464;
+    }
+    &__modal {
+        position: absolute;
+        display: flex;
+        z-index: 100;
+        &--hide {
+            top: -1000px;
+        }
+        &--visible {
+            top: 400px;
+        }
+    }
+}

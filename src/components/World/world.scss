@@ -1,0 +1,37 @@
+#world {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+.world-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0,0,0,0.2);
+    display: block;
+}
+.world-1 {
+    background: url('./img/world1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.world-2 {
+    background: url('./img/world2.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.world-3 {
+    background: url('./img/world3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.change-world {
+    width: 200px;
+    color: #fff;
+}

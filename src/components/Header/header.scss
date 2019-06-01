@@ -1,0 +1,38 @@
+.header-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px;
+    &__resources {
+        width: 20%;
+        height: 10px;
+        border-radius: 6px;
+        position: relative;
+        transition: 0.3s;
+    }
+    &__separate-resource {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        border-radius: 6px;
+        transition: 0.5s;
+    }
+    &__health {
+        background-color: #78EBD1;
+        
+    }
+    &__fuel {
+        background-color: orange;
+    }
+    &__mana {
+        background-color: #89CEFF;
+    }
+    &__money {
+        background-color: #009769;
+
+    }
+}
